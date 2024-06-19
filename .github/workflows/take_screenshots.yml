@@ -17,6 +17,8 @@ jobs:
         include:
           - url: blog.codeep.xyz
             filename_prefix: codeep.xyz
+          - url: blog.codeep.xyz/half-moon
+            filename_prefix: half-moon
 
       # Setting max-parallel ensures that these jobs will run in serial,
       # not parallel, so we don't have conflicting tasks trying to
